@@ -2,7 +2,60 @@
 
 Une page d'accueil moderne et épurée pour l'application iOS **Moona**, une app de suivi des règles menstruelles.
 
-## 🌙 Aperçu
+> **💡 Note importante**: Ce repository contient le **code source Swift** de l'application. Pour voir l'app en action, vous devez l'ouvrir dans **Xcode** (voir [Installation](#-installation-et-utilisation) ci-dessous). GitHub affiche uniquement la documentation et le code.
+
+## 🎬 Démarrage Rapide
+
+### Pour Voir l'App Fonctionner:
+```bash
+1. Ouvrir Xcode
+2. File → New → Project → iOS App (SwiftUI)
+3. Glisser-déposer les fichiers .swift dans le projet
+4. Appuyer sur ⌘R
+5. L'app s'affiche dans le simulateur ! 🎉
+```
+
+**Voir le guide complet:** [QUICK_START.md](QUICK_START.md)
+
+## 🌙 Aperçu de l'Interface
+
+<details>
+<summary><b>📱 Cliquez pour voir le mockup de l'écran</b></summary>
+
+```
+┌─────────────────────────────────┐
+│        🌙 Moona                 │
+│                                 │
+│      [Dégradé Bleu]            │
+│    #0066FF → #E8F4FF           │
+│                                 │
+│       ╭──────────╮              │
+│      │    🧺     │              │
+│      │  Panier + │  ✨          │
+│      │   Linge   │              │
+│       ╰──────────╯              │
+│                                 │
+│  Suivez votre cycle             │
+│  naturellement                  │
+│                                 │
+│  Prenez soin de vous,           │
+│  simplement                     │
+│                                 │
+│  ┌─────────────────────────┐   │
+│  │   Commencer    [NOIR]   │   │
+│  └─────────────────────────┘   │
+│                                 │
+│  ┌─────────────────────────┐   │
+│  │ J'ai déjà un compte     │   │
+│  └─────────────────────────┘   │
+│                                 │
+│  En continuant vous acceptez    │
+│  nos Conditions d'utilisation   │
+└─────────────────────────────────┘
+```
+</details>
+
+### ✨ Caractéristiques
 
 Cette interface d'onboarding présente un design minimaliste et chaleureux avec :
 - Un dégradé bleu apaisant (bleu roi → bleu ciel)
